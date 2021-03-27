@@ -26,8 +26,11 @@ Install node.js, download this project. After using your terminal to change dire
 
 ## Code Examples
 Show examples of usage:
-`put-your-code-here`
-`example-code-coming-soon`
+`const generateMessage = quotes => {
+
+    return quotes[Math.floor(Math.random() * quotes.length)];
+
+}`
 
 ## Features
 List of features ready and TODOs for future development
@@ -39,10 +42,10 @@ To-do list:
 * Start extended version
 
 ## Status
-Project is: _in progress_,
+Project is: _in progress_
 
 ## Inspiration
-Project inspired by Vex King, a leader in positive mental health realignment and motivating individuals.
+Project inspired by Vex King, a leader in positive mental well-being and motivational quotes.
 
 ## Contact
-Created by [@mworsfold15]
+Created by Matt Worsfold
