@@ -1,5 +1,5 @@
 # Mixed Messages
-> A simple JS console application to generate random inspirational quotes
+> A simple JS console application to generate random inspirational quotes.
 
 ## Table of contents
 * [General info](#general-info)
@@ -15,37 +15,35 @@
 This is a portfolio project as a part of my Full-Stack Engineer training, specifically JavaScript.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](/mixedMessages/images/quote-generated.png)
 
 ## Technologies
 * JavaScript (ECMAScript 2018)
-
 
 ## Setup
 Install node.js, download this project. After using your terminal to change directory to this folder, use 'node mixedMessages.js' to run the program.
 
 ## Code Examples
 Show examples of usage:
-`const generateMessage = quotes => {
-
-    return quotes[Math.floor(Math.random() * quotes.length)];
-
-}`
+`_combinedQuotes: {`
+        `quotes: [],`
+        `authors: [],`
+        `dates: [],`
+    `}`
 
 ## Features
-List of features ready and TODOs for future development
-* Streamlined version in progress
-* Extended version using objects and 3 different data sets coming soon
+* Random quotes and authors can be added to generate random inspirational quotes
+* Uses JS objects with getters and setters
 
 To-do list:
-* Start streamlined version
-* Start extended version
+* ~~Complete streamlined version~~
+* ~~Complete extended version~~
 
 ## Status
-Project is: _in progress_
+Project is: _complete_
 
 ## Inspiration
 Project inspired by Vex King, a leader in positive mental well-being and motivational quotes.
 
 ## Contact
-Created by Matt Worsfold
+Created by [Matt Worsfold](https://www.linkedin.com/in/matt-worsfold-042698151/)
